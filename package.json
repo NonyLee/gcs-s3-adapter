@@ -1,0 +1,21 @@
+{
+  "name": "gcs-s3-adapter",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/NonyLee/gcs-s3-adapter",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx ./src/main.ts"
+  },
+  "devDependencies": {
+    "@google-cloud/storage": "^7.11.3",
+    "tsx": "^4.16.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "minio": "^8.0.1"
+  },
+  "files": [
+    "dist/**"
+  ]
+}
