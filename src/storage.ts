@@ -29,6 +29,7 @@ export class Storage {
             useSSL: this.useSSL,
             accessKey: s3AccessKey,
             secretKey: s3SecretKey,
+            region: "us-east-1"
         })
         this.minioClient.enableSHA256 = false
     }

@@ -1,6 +1,6 @@
 {
   "name": "gcs-s3-adapter",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "dist/index.js",
   "homepage": "https://github.com/NonyLee/gcs-s3-adapter",
   "scripts": {
